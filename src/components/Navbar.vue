@@ -2,10 +2,10 @@
 import { ref } from 'vue';
 
 const isActive = ref(false);
+const isMobile = ref(false);
 
 function toggleMenu(){
     isActive.value = !isActive.value;
-    console.log(isActive.value ? "menu aberto" : "menu fechado");
 }
 
 </script>
@@ -13,13 +13,13 @@ function toggleMenu(){
 <template>
         <button 
             @click="toggleMenu"
-            :class="{ active: isActive}"
+            :class="{ active: isActive }"
             class="relative bg-[#eee] rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-transparent border-1 items-center justify-center cursor-pointer"
         >
         <span :class="{active: isActive}"></span>
         </button>
         <Transition name="fade-slide">
-            <nav v-show="isActive" class="absolute mt-1 border-1 border-gray-300 rounded-md p-2 bg-zinc-50">
+            <nav v-show="isActive" class="absolute mt-1 top-12 right-1 border-1 border-gray-300 rounded-lg p-2 bg-zinc-50 shadow-md">
                 <ul class="flex flex-col gap-2 min-w-[120px]">
                     <li class="px-1 py-2">Home</li>
                     <li class="px-1 py-2">Sobre mim</li>

@@ -20,7 +20,7 @@ function toggleMenu(){
         </button>
         <Transition name="fade-slide">
             <nav v-show="isActive" class="absolute mt-1 border-1 border-gray-300 rounded-md p-2 bg-zinc-50">
-                <ul class="flex flex-col gap-2 text-gray-800 min-w-[120px]">
+                <ul class="flex flex-col gap-2 min-w-[120px]">
                     <li class="px-1 py-2">Home</li>
                     <li class="px-1 py-2">Sobre mim</li>
                     <li class="px-1 py-2">Projetos</li>
@@ -112,5 +112,11 @@ span.active::after{
     border-right: 2px solid currentColor;
     border-top: 2px solid currentColor;
     background: transparent ;
+}
+
+li:hover,
+li:focus{
+    cursor: pointer;
+   color: #00BCFF;
 }
 </style>

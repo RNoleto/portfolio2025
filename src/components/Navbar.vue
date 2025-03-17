@@ -15,27 +15,50 @@ function toggleMenu(){
             @click="toggleMenu"
             :class="{ active: isActive}"
             class="bg-[#eee] rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-transparent border-1 items-center justify-center cursor-pointer"
-        ></button>
+        >
+        <span :class="{active: isActive}"></span>
+        </button>
         <nav v-show="isActive">
             Opções do menu
         </nav>
 </template>
 
 <style scoped>
-button::after{
+button span{
     content: '';
-    display: block;
+    position: relative;
     width: 1.2rem;
     height: 2px;
     border-radius: 2px;
     background: currentColor;
-    box-shadow: 0 6px currentColor, 0 -6px currentColor;
-    transition: .2s;
+    transition: .3s;
+}
+
+button span:before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    display: block;
+    width: 1.2rem;
+    height: 2px;
+    border-radius: 2px ;
+    background: currentColor;
+}
+
+span:after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    display: block;
+    width: 1.2rem;
+    height: 2px;
+    border-radius: 2px ;
+    background: currentColor;
 }
 
 button:focus,
 button:hover,
-.active{
+button.active{
     outline: none;
     background: white;
     box-shadow: 0 0 0 3px #A6E3FF;
@@ -43,10 +66,35 @@ button:hover,
     color: #00BCFF;
 }
 
-.active::after{
-    transform: rotate(-90deg);
-    width: 4px;
-    height: 4px;
-    box-shadow: 0 8px currentColor, 0 -8px currentColor;
+/* Barra do meio */
+span.active{
+    content: '';
+    transform: rotate(110deg);
+    color: currentColor;
+}
+
+span.active::before,
+span.active::after{
+    transform: rotate(-65deg);
+    width: 10px; 
+    height: 10px;
+}
+
+/* Superior */
+span.active::before{
+    top: 2px;
+    left: 6px;
+    border-left: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    background: transparent ;
+}
+
+/* Inferior */
+span.active::after{
+    left: 2px;
+    top: -10px;
+    border-right: 2px solid currentColor;
+    border-top: 2px solid currentColor;
+    background: transparent ;
 }
 </style>

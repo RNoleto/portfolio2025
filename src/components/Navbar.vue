@@ -14,16 +14,32 @@ function toggleMenu(){
         <button 
             @click="toggleMenu"
             :class="{ active: isActive}"
-            class="bg-[#eee] rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-transparent border-1 items-center justify-center cursor-pointer"
+            class="relative bg-[#eee] rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-transparent border-1 items-center justify-center cursor-pointer"
         >
         <span :class="{active: isActive}"></span>
         </button>
-        <nav v-show="isActive">
-            Opções do menu
-        </nav>
+        <Transition name="fade-slide">
+            <nav v-show="isActive" class="absolute mt-1 border-1 border-gray-300 rounded-md p-2 bg-zinc-50">
+                <ul class="flex flex-col gap-2 text-gray-800 min-w-[120px]">
+                    <li class="px-1 py-2">Home</li>
+                    <li class="px-1 py-2">Sobre mim</li>
+                    <li class="px-1 py-2">Projetos</li>
+                    <li class="px-1 py-2">Contato</li>
+                </ul>
+            </nav>
+        </Transition>
 </template>
 
 <style scoped>
+/* Transição suave do menu */
+.fade-slide-enter-active, .fade-slide-leave-active {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-slide-enter-from, .fade-slide-leave-to {
+    opacity: 0;
+    transform: translateY(-10px);
+}
 button span{
     content: '';
     position: relative;

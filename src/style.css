@@ -1,2 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
 @import "tailwindcss";
 
+/* Opções base para estrutura da ladingPage */
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #00bcff;
+    --second-color: #A6E3FF;
+}
+
+body{
+    margin: 0px;
+    color: #333;
+    --type-first: Helvetica, Arial, sans-serif;
+    --type-second: 'Spectral', georgia;
+    font-family: var(--type-first);
+}
+
+section{
+    padding: 1.5rem 1rem;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.AppBody{
+    flex: 1;
+    background: #eee;
+}
+
+.title{
+    font-family: var(--type-second);
+    line-height: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--primary-color);
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.2rem;
+    z-index: -1;
+}

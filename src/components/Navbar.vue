@@ -59,7 +59,7 @@ onBeforeUnmount(() => {
     <nav 
       ref="menuRef"
       v-show="!isMobile || isActive" 
-      class="absolute mt-1 top-12 right-1 border border-gray-300 rounded-lg p-2 bg-zinc-50 shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
+      class="absolute z-100 mt-1 top-12 right-1 border border-gray-300 rounded-lg p-2 bg-zinc-50 shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
     >
       <ul class="flex flex-col gap-2 min-w-[120px] sm:flex-row sm:gap-4 sm:min-w-0">
         <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li>
@@ -125,9 +125,9 @@ button:hover,
 button.active {
   outline: none;
   background: white;
-  box-shadow: 0 0 0 3px #A6E3FF;
-  border-color: #00BCFF;
-  color: #00BCFF;
+  box-shadow: 0 0 0 3px var(--second-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* Transformação para o ícone ativo (</>) */
@@ -161,6 +161,6 @@ span.active::after {
 li:hover,
 li:focus {
   cursor: pointer;
-  color: #00BCFF;
+  color: var(--primary-color);
 }
 </style>

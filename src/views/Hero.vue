@@ -4,17 +4,14 @@
 
 <template>
     <section class="hero overflow-hidde">
-        <div class="flex flex-col items-center justify-center bg-white/30 rounded-2xl backdrop-blur-sm p-1 animeLeft">
-            <p class="title">RNoleto</p>
-            <div>
-                <p class="subtitle">Desenvolvedor Web.</p>
-            </div>
-        </div>
+        <p class="title">Do código à inovação.</p>
+        <p class="subtitle">Transformando ideias em experiências digitais excepcionais.</p>
     </section>
 </template>
 
 <style scoped>
 .hero{
+    height: calc(100vh - 55px);
     background: url('../../public/img/monkey.png') center center / cover no-repeat;
 }
 </style>

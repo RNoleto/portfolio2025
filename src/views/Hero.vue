@@ -12,6 +12,6 @@
 <style scoped>
 .hero{
     height: calc(100vh - 55px);
-    background: url('../../public/img/monkey.png') center center / cover no-repeat;
+    /* background: url('../../public/img/monkey.png') center center / cover no-repeat; */
 }
 </style>

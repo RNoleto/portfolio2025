@@ -4,7 +4,7 @@ import Navbar from './Navbar.vue';
 </script>
 
 <template>
-    <header class="flex items-center justify-between py-3 px-5 bg-turquoise z-1">
+    <header class="flex items-center justify-between py-3 px-5 bg-turquoise z-1 fixed w-full">
         <p class="text-lightCream font-heading text-[16px]">RNoleto</p>
         <Navbar />
     </header>

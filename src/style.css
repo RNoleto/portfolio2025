@@ -32,12 +32,13 @@ body{
 section{
     padding: 1.25rem;
     background: var(--color-cream);
+    height: calc(100vh - 64px);
 }
 
 #app{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .AppBody{
@@ -59,6 +60,7 @@ section{
 
 .detail{
     color: var(--color-turquoise);
+    text-shadow: 5px 10px 0px var(--color-cream);
 }
 
 

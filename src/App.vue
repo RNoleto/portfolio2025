@@ -6,10 +6,10 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header/>
-  <main class="AppBody">
+  <main class="AppBody mt-[64px]">
     <Hero/>
   </main>
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style scoped></style>

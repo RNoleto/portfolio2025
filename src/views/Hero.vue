@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="hero overflow-hidde flex flex-col">
+    <section class="hero overflow-hidde flex flex-col justify-center">
         <p class="title mt-[30px]">Olá! Eu sou Ramon.</p>
         <p class="featuredText mt-1">Desenvolvendo experiências digitais com foco em <span class="detail">performance</span> e <span class="detail">acessibilidade.</span></p>
         <p class="font-detail mt-5 text-end">Transformando ideias em soluções digitais</p>

@@ -42,6 +42,7 @@ section{
 }
 
 .AppBody{
+    overflow: hidden;
     flex: 1;
 }
 
@@ -81,6 +82,19 @@ section{
 }
 
 @keyframes animeLeft{
+    to{
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+.animeRight{
+    opacity: 0;
+    transform: translateX(20px);
+    animation: animeRight .3s forwards;
+}
+
+@keyframes animeRight{
     to{
         opacity: 1;
         transform: initial;

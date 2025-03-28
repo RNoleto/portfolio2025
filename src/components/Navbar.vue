@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
     ref="buttonRef"
     @click="toggleMenu"
     :class="{ active: isActive }"
-    class="relative bg-[#eee] rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-transparent border-1 items-center justify-center cursor-pointer sm:hidden"
+    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer sm:hidden text-lightText"
   >
     <span :class="{ active: isActive }"></span>
   </button>
@@ -59,7 +59,7 @@ onBeforeUnmount(() => {
     <nav 
       ref="menuRef"
       v-show="!isMobile || isActive" 
-      class="absolute z-100 mt-1 top-12 right-1 border border-gray-300 rounded-lg p-2 bg-zinc-50 shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
+      class="absolute z-100 mt-1 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
     >
       <ul class="flex flex-col gap-2 min-w-[120px] sm:flex-row sm:gap-4 sm:min-w-0">
         <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li>
@@ -124,10 +124,10 @@ button:focus,
 button:hover,
 button.active {
   outline: none;
-  background: white;
-  box-shadow: 0 0 0 3px var(--second-color);
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  background: var(--color-cream);
+  color: var(--color-turquoise);
+  border-color: #008CBA;
+  box-shadow: 0 0 0 3px #4BB8DB;
 }
 
 /* Transformação para o ícone ativo (</>) */
@@ -161,6 +161,7 @@ span.active::after {
 li:hover,
 li:focus {
   cursor: pointer;
-  color: var(--primary-color);
+  color: var(--color-cobaltBlue);
+  background: var(--color-lightText);
 }
 </style>

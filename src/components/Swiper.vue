@@ -25,13 +25,13 @@ const swiperOptions = {
 </script>
 
 <template>
-<Swiper v-bind="swiperOptions" class="w-full">
+<Swiper v-bind="swiperOptions" class="translate-x-10  w-[300px]">
     <SwiperSlide
       v-for="(project, index) in projects"
       :key="index"
       class="flex-shrink-0 w-[80%] md:w-[60%] lg:w-[50%]"
     >
-      <div class="ml-[68px] overflow-hidden">
+      <div class="overflow-hidden">
         <img :src="project.image" :alt="project.title" class="w-[260px] h-[200px] object-cover" />
         <div class="ml-6 mt-2 text-darkCream w-[234px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>

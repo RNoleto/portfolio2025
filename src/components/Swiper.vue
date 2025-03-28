@@ -32,8 +32,8 @@ const swiperOptions = {
       class="flex-shrink-0 w-[80%] md:w-[60%] lg:w-[50%]"
     >
       <div class="ml-[68px] overflow-hidden">
-        <img :src="project.image" :alt="project.title" class="w-[260px] h-[200px] object-cover border-black border-2" />
-        <div class="ml-5 text-darkCream">
+        <img :src="project.image" :alt="project.title" class="w-[260px] h-[200px] object-cover" />
+        <div class="ml-6 mt-2 text-darkCream w-[234px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>
           <p class="mb-4">{{ project.description }}</p>
           <div class="flex justify-end space-x-2">

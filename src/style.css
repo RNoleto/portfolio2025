@@ -63,6 +63,14 @@ section{
     text-shadow: 5px 10px 0px var(--color-cream);
 }
 
+.text-body{
+    font-family: var(--font-body);
+    color: var(--color-darkCream);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+}
+
 
 /* Animação */
 

@@ -8,7 +8,7 @@ import Polaroid from '../components/ui/Polaroid.vue'
             <img src="/public/AboutMe.svg" alt="">
         </div>
         <Polaroid imageSrc="../../public/img/RamonNoleto.jpg" caption="Ramon Noleto" class="absolute top-2 left-[205px] rotate-20 animeRight z-1"/>
-        <div class="flex flex-col gap-2.5 text-body animeLeft mt-[-150px]">
+        <div class="flex flex-col gap-2.5 text-body animeLeft mt-[-130px]">
             <p class="w-[200px]">Sou um desenvolvedor web especializado em criar experiências digitais focadas em performance e acessibilidade. </p>
             <p class="">Minha missão é<br>transformar ideias em <br> soluções eficientes que <br> proporcionem aos usuários <br> uma navegação intuitiva e agradável.</p>
             <p>Ao longo da minha carreira, participei de diversos projetos desafiadores que me permitiram aprimorar habilidades em HTML, CSS, JavaScript, PHP, Vue. Cada experiência contribuiu para meu crescimento profissional e reforçou meu compromisso com a qualidade e a inovação.</p>

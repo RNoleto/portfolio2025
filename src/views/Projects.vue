@@ -34,13 +34,13 @@ const projects = [
 
 <template>
     <section class="relative">
-        <div class="absolute z-3 left-0 top-0  w-[100px] flex flex-col items-center">
+        <div class="absolute z-3 left-0 top-0  w-[100px] flex flex-col items-center animeLeft">
             <img src="/ProjetosLetras.svg" alt="aqui">
         </div>
-        <span class="barra absolute z-1 left-0 top-0 bg-redCream w-[100px] h-full flex flex-col items-center">
+        <span class="barra absolute z-1 left-0 top-0 bg-redCream w-[100px] h-full flex flex-col items-center animeLeft">
         </span>
-        <span class="absolute z-2 left-[40px] top-[240px] bg-redCream w-[60px] h-[350px]"></span>
-        <Swiper :projects="projects" class="relative z-5"/>
+        <span class="absolute z-2 left-[40px] top-[240px] bg-redCream w-[60px] h-[350px] animeLeft"></span>
+        <Swiper :projects="projects" class="relative z-5 animeRight"/>
     </section>
 </template>
 

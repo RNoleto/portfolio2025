@@ -4,7 +4,7 @@ import Polaroid from '../components/ui/Polaroid.vue'
 
 <template>
     <section class="aboutMe">
-        <div class="image-container relative">
+        <div class="image-container relative animeLeft">
             <img src="/AboutMe.svg" alt="">
         </div>
         <Polaroid imageSrc="../img/RamonNoleto.jpg" caption="Ramon Noleto" class="absolute top-2 left-[205px] rotate-20 animeRight z-1"/>

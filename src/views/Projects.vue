@@ -34,16 +34,20 @@ const projects = [
 
 <template>
     <section class="relative">
-        <div class="flex flex-col items-center absolute left-0 top-0 bg-redCream w-[100px] h-full animeLeft">
-          <span v-for="(letter, index) in letters" :key="index" class="feature">
-            {{ letter }}
-          </span>
+        <div class="absolute z-3 left-0 top-0  w-[100px] flex flex-col items-center">
+            <img src="/ProjetosLetras.svg" alt="aqui">
         </div>
-        <Swiper :projects="projects" class=""/>
+        <span class="barra absolute z-1 left-0 top-0 bg-redCream w-[100px] h-full flex flex-col items-center">
+        </span>
+        <span class="absolute z-2 left-[70px] top-[230px] bg-redCream w-[30px] h-[400px]"></span>
+        <Swiper :projects="projects" class="relative z-5"/>
     </section>
 </template>
 
 <style scoped>
+.barra{
+    box-shadow: 2px 0 3px var(--color-lightText);
+}
 .feature{
     display: block;
     color: var(--color-cream);

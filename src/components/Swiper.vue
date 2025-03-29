@@ -20,7 +20,7 @@ const swiperOptions = {
 </script>
 
 <template>
-  <Swiper v-bind="swiperOptions" class="translate-x-[10px] w-[320px] overflow-hidden">
+  <Swiper v-bind="swiperOptions" class="translate-x-[26px] w-[360px] overflow-hidden">
     <SwiperSlide
       v-for="(project, index) in projects"
       :key="index"
@@ -32,7 +32,7 @@ const swiperOptions = {
           :alt="project.title"
           class="w-[360px] h-[215px] object-cover"
         />
-        <div class="ml-[60px] mt-2 text-darkCream w-[206px]">
+        <div class="ml-[64px] mt-2 text-darkCream w-[200px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>
           <p class="mb-4">{{ project.description }}</p>
           <div class="flex justify-end space-x-2">

@@ -39,7 +39,7 @@ const projects = [
             {{ letter }}
           </span>
         </div>
-        <Swiper :projects="projects"/>
+        <Swiper :projects="projects" class=""/>
     </section>
 </template>
 

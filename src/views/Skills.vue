@@ -31,7 +31,7 @@
 
             <div class="flex">
                 <img src="/img/stickers/mysql.svg" alt="mysql">
-                <img src="/img/stickers/postgresql.svg" alt="postgresql" class="ml-[-50px]">
+                <img src="/img/stickers/postgresql2.png" alt="" class="postgresql ml-[-55px]">
             </div>
         </div>
     </section>
@@ -48,7 +48,12 @@
 
 .image-container{
     position: absolute;
-    left: 0;
+    left: 0px;
     width: 100%;
+}
+
+.postgresql{
+    width: auto;
+    height: 120px;
 }
 </style>

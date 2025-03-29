@@ -24,6 +24,11 @@
     --font-anton: Anton, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+  }
+
 body{
     margin: 0px;
     color: var(--color-darkText);
@@ -38,7 +43,7 @@ section{
 #app{
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 .AppBody{

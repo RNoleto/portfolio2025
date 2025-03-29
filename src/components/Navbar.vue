@@ -62,10 +62,10 @@ onBeforeUnmount(() => {
       class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
     >
       <ul class="flex flex-col gap-2 min-w-[120px] sm:flex-row sm:gap-4 sm:min-w-0">
-        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li>
-        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Sobre mim</li>
-        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Projetos</li>
-        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Contato</li>
+        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2"><a href="#home">Home</a></li>
+        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2"><a href="#about">Sobre mim</a></li>
+        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2"><a href="#projects">Projetos</a></li>
+        <li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2"><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </Transition>

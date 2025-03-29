@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="overflow-hidde flex flex-col">
+    <section class="overflow-hidde flex flex-col" id="home">
         <div class="animeLeft">
             <p class="title mt-[30px]">Olá! Eu sou Ramon.</p>
             <p class="featuredText mt-1">Desenvolvendo experiências digitais com foco em <span class="detail">performance</span> e <span class="detail">acessibilidade.</span></p>

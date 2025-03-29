@@ -9,7 +9,7 @@ import Projects from './views/Projects.vue';
 
 <template>
   <Header/>
-  <main class="AppBody mt-[64px]">
+  <main class="AppBody scroll-pt-16">
     <Hero/>
     <AboutMe />
     <Projects />

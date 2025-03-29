@@ -33,7 +33,7 @@ const projects = [
 </script>
 
 <template>
-    <section class="relative">
+    <section class="relative" id="projects">
         <div class="absolute z-3 left-0 top-0  w-[100px] flex flex-col items-center animeLeft">
             <img src="/ProjetosLetras.svg" alt="aqui">
         </div>

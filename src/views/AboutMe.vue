@@ -3,7 +3,7 @@ import Polaroid from '../components/ui/Polaroid.vue'
 </script>
 
 <template>
-    <section class="aboutMe">
+    <section class="aboutMe" id="about">
         <div class="image-container relative animeLeft">
             <img src="/AboutMe.svg" alt="">
         </div>

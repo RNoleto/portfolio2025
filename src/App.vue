@@ -5,6 +5,7 @@ import Footer from './components/Footer.vue';
 import Hero from './views/Hero.vue';
 import AboutMe from './views/AboutMe.vue';
 import Projects from './views/Projects.vue';
+import Skills from './views/Skills.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Projects from './views/Projects.vue';
     <Hero/>
     <AboutMe />
     <Projects />
+    <Skills />
   </main>
   <!-- <Footer /> -->
 </template>

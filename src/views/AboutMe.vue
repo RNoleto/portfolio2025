@@ -20,9 +20,9 @@ import Polaroid from '../components/ui/Polaroid.vue'
 <style scoped>
 .aboutMe {
   position: relative;
-  padding: 1.25rem;
-  background: var(--color-cream);
-  height: calc(100vh - 64px);
+  /* padding: 1.25rem; */
+  /* background: var(--color-cream); */
+  /* height: calc(100vh - 64px); */
 }
 
 .image-container {

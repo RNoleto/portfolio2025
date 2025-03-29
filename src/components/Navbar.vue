@@ -65,7 +65,7 @@ onBeforeUnmount(() => {
         <a href="#home"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li></a>
         <a href="#about"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Sobre mim</li></a>
         <a href="#projects"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Projetos</li></a>
-        <a href="#contact"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Contato</li></a>
+        <a href="#skills"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Habilidades</li></a>
       </ul>
     </nav>
   </Transition>

@@ -22,7 +22,7 @@
             </div>
             <!-- Vue e React -->
             <div class="flex">
-                <img src="/img/stickers/vue.png" alt="vue" class="sticker h-[120px]">
+                <img src="/img/stickers/vue.png" alt="vue" class="sticker h-[100px] ml-[10px]">
                 <img src="/img/stickers/react.png" alt="react" class="sticker h-[100px] ml-[-30px]">
             </div>
             <!-- Wordpress e Figma -->

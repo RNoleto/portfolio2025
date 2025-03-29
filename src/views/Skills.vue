@@ -57,4 +57,8 @@
 .sticker{
     width: auto;
 }
+.sticker:hover{
+    transform: rotate(10deg);
+    transition: .3s;
+}
 </style>

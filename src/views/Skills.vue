@@ -6,7 +6,7 @@
     <section id="skills">
         <p>As principais tecnologias e ferramentas que utilizo diariamente para desenvolver soluções digitais eficientes, acessíveis e de alta performance.</p>
         <div class="image-container relative animeLeft mt-2.5">
-            <img src="/Habilidades.svg" alt="">
+            <img src="/HabilidadesNovo.svg" alt="">
         </div>
     </section>
 </template>

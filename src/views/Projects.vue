@@ -39,7 +39,7 @@ const projects = [
         </div>
         <span class="barra absolute z-1 left-0 top-0 bg-redCream w-[100px] h-full flex flex-col items-center">
         </span>
-        <span class="absolute z-2 left-[70px] top-[230px] bg-redCream w-[30px] h-[400px]"></span>
+        <span class="absolute z-2 left-[50px] top-[250px] bg-redCream w-[50px] h-[350px]"></span>
         <Swiper :projects="projects" class="relative z-5"/>
     </section>
 </template>

@@ -13,14 +13,14 @@ const props = defineProps({
 // Configuração do Swiper
 const swiperOptions = {
   slidesPerView: 'auto', // Controla a largura do slide manualmente
-  spaceBetween: 1.1, // Espaço entre os slides
+  spaceBetween: 10, // Espaço entre os slides
   centeredSlides: false, // Não centraliza o slide atual
   loop: true, // Permite loop infinito
 };
 </script>
 
 <template>
-  <Swiper v-bind="swiperOptions" class="translate-x-[45px] w-[320px] overflow-hidden">
+  <Swiper v-bind="swiperOptions" class="translate-x-[20px] w-[320px] overflow-hidden">
     <SwiperSlide
       v-for="(project, index) in projects"
       :key="index"
@@ -30,9 +30,9 @@ const swiperOptions = {
         <img
           :src="project.image"
           :alt="project.title"
-          class="w-[260px] h-[200px] object-cover"
+          class="w-[360px] h-[200px] object-cover"
         />
-        <div class="ml-8 mt-2 text-darkCream w-[215px]">
+        <div class="ml-[60px] mt-2 text-darkCream w-[206px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>
           <p class="mb-4">{{ project.description }}</p>
           <div class="flex justify-end space-x-2">

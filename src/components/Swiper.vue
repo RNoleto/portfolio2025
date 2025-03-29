@@ -24,7 +24,7 @@ const swiperOptions = {
     <SwiperSlide
       v-for="(project, index) in projects"
       :key="index"
-      class="w-[85%] max-w-[270px] first:ml-0 last:mr-0"
+      class="w-[85%] max-w-[280px] first:ml-0 last:mr-0"
     >
       <div class="overflow-hidden w-[280px]">
         <img

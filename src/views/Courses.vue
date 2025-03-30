@@ -5,7 +5,8 @@ import 'swiper/css';
 
 <template>
   <section id="courses">
-    <p class="font-detail">Cursos</p>
+    <p class="title">Cursos</p>
+    <p class="font-detail text-sm mt-1">Ingressos dos cursos que participei.</p>
     <swiper
       slides-per-view="1.2"
       space-between="20"

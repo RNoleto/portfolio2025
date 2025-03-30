@@ -6,6 +6,7 @@ import Hero from './views/Hero.vue';
 import AboutMe from './views/AboutMe.vue';
 import Projects from './views/Projects.vue';
 import Skills from './views/Skills.vue';
+import Courses from './views/Courses.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import Skills from './views/Skills.vue';
     <AboutMe />
     <Projects />
     <Skills />
+    <Courses />
   </main>
   <!-- <Footer /> -->
 </template>

@@ -64,6 +64,7 @@ onBeforeUnmount(() => {
       <ul class="flex flex-col gap-2 min-w-[120px] sm:flex-row sm:gap-4 sm:min-w-0">
         <a href="#home"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li></a>
         <a href="#about"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Sobre mim</li></a>
+        <a href="#education"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Educação</li></a>
         <a href="#projects"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Projetos</li></a>
         <a href="#skills"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Habilidades</li></a>
         <a href="#courses"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Cursos</li></a>

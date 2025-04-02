@@ -21,7 +21,7 @@ const educations = [
 
 <template>
     <section id="education">
-        <h1 class="title text-darkCream mb-2">Educação</h1>
+        <h1 class="title mb-2">Educação</h1>
         <p class="text-body mb-4">
             Ao longo da minha trajetória acadêmica, busquei constantemente aprimorar meus conhecimentos e habilidades na área de tecnologia. A seguir, apresento minhas principais formações:
         </p>

@@ -5,6 +5,7 @@ import Footer from './components/Footer.vue';
 import Hero from './views/Hero.vue';
 import AboutMe from './views/AboutMe.vue';
 import Education from './views/Education.vue';
+import Work from './views/Work.vue';
 import Projects from './views/Projects.vue';
 import Skills from './views/Skills.vue';
 import Courses from './views/Courses.vue';
@@ -16,6 +17,7 @@ import Courses from './views/Courses.vue';
     <Hero/>
     <AboutMe />
     <Education />
+    <Work />
     <Projects />
     <Skills />
     <Courses />

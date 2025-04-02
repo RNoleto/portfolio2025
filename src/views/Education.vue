@@ -3,18 +3,18 @@
 const educations = [
     {
         university: 'Unicesumar',
+        year: '2024 - 2025',
         graduation: 'Engenharia de Software',
-        year: '2024 - 2025'
     },
     {
         university: 'ESAB - Escola Aberta do Brasil',
+        year: '2012 - 2014',
         graduation: 'Pós Graduação em Engenharia de Sistemas',
-        year: '2012 - 2014'
     },
     {
         university: 'FAMA - Faculdade de Macapá',
+        year: '2007 - 2009',
         graduation: 'Gerenciamento em Redes de Computadores',
-        year: '2007 - 2009'
     }
 ]
 </script>
@@ -28,8 +28,8 @@ const educations = [
         <div class="flex flex-col text-darkText md:flex-row flex-wrap justify-center gap-4">
             <div v-for="(education, index) in educations" :key="index" class="bg-lightCream p-4 border rounded-md shadow-sm w-full md:w-1/3">
                 <h2 class="text-lg font-semibold">{{ education.university }}</h2>
+                <p class="text-sm text-gray-600 my-1">{{ education.year }}</p>
                 <p class="text-md">{{ education.graduation }}</p>
-                <p class="text-sm text-gray-600">{{ education.year }}</p>
             </div>
         </div>
     </section>

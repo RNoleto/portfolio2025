@@ -18,12 +18,12 @@ const contacts = [
     link: 'https://www.linkedin.com/in/ramon-noleto-b0913545/',
     icon: '/linkedin.svg'
   },
-//   {
-//     type: 'Discord',
-//     value: 'Ramon Noleto',
-//     link: 'mailto:devnoleto@gmail.com',
-//     icon: '/discord.svg'
-//   }
+  {
+    type: 'Discord',
+    value: 'RNoleto',
+    link: 'https://discord.com/users/586556129702576138',
+    icon: '/discord.svg'
+  }
 ];
 </script>
 

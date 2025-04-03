@@ -19,7 +19,7 @@
 
     --font-heading: Playfair Display, serif;
     --font-body: Open Sans, sans-serif;
-    /* --font-detail: Satisfy, cursive; */
+    --font-detail: Satisfy, cursive;
     /* --font-detail: Caveat Brush, cursive ; */
     --font-codePro: Source Code Pro, monospace;
     --font-anton: Anton, sans-serif;
@@ -58,6 +58,17 @@ section{
     letter-spacing: 2px;
     font-size: 24px;
 }
+
+.handwritten-title {
+    font-family: var(--font-detail);
+    letter-spacing: 1px;
+    color: var(--color-darkText);
+}
+
+.handwritten-text {
+    font-family: var(--font-body);
+    color: var(--color-darkText);
+  }
 
 .featuredText{
     font-family: var(--font-heading);

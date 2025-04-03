@@ -57,7 +57,7 @@ const educations = [
 }
 
 .handwritten-university {
-  font-family: 'Indie Flower', cursive; /* Mudar para fonte legivel */
+  font-family: var(--font-heading);
   font-size: 1.125rem;
   color: var(--color-cobaltBlue);
 }

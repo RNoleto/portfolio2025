@@ -19,7 +19,8 @@
 
     --font-heading: Playfair Display, serif;
     --font-body: Open Sans, sans-serif;
-    --font-detail: Satisfy, cursive;
+    /* --font-detail: Satisfy, cursive; */
+    --font-detail: Caveat Brush, cursive ;
     --font-codePro: Source Code Pro, monospace;
     --font-anton: Anton, sans-serif;
 }

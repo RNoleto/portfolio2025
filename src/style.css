@@ -60,7 +60,7 @@ section{
 }
 
 .handwritten-title {
-    font-family: var(--font-detail);
+    font-family: 'Indie Flower', cursive;
     letter-spacing: 1px;
     color: var(--color-darkText);
 }

@@ -9,6 +9,7 @@ import Work from './views/Work.vue';
 import Projects from './views/Projects.vue';
 import Skills from './views/Skills.vue';
 import Courses from './views/Courses.vue';
+import Contact from './views/Contact.vue';
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import Courses from './views/Courses.vue';
     <Projects />
     <Skills />
     <Courses />
+    <Contact />
   </main>
   <!-- <Footer /> -->
 </template>

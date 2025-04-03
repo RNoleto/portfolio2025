@@ -32,9 +32,9 @@ defineProps({
     >
       <div class="text-sm flex flex-col justify-center">
         <p class="font-bold">{{ nomeEvento }}</p>
-        <p class="italic">{{ mesAno }}</p>
-        <p>{{ descricao }}</p>
-        <p class="text-end text-xs z-10">{{ producao }}</p>
+        <p class="text-[10px]">{{ mesAno }}</p>
+        <p class="text-[10px]">{{ descricao }}</p>
+        <p class="text-end text-[10px] z-10">{{ producao }}</p>
       </div>
       
       <!-- Ícone do evento -->
@@ -48,5 +48,7 @@ defineProps({
 </template>
 
 <style scoped>
-/* Adicione estilos personalizados se necessário */
+.description{
+  font-size: 10px;
+}
 </style>

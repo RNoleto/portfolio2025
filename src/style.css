@@ -17,6 +17,9 @@
     --color-redCream: #C0392B;
     --color-darkRedCream: #800000;
 
+    /* Cores para os Tickets */
+    --color-ticketBlue: #DEE9ED;
+
     --font-heading: Playfair Display, serif;
     --font-body: Open Sans, sans-serif;
     --font-detail: Satisfy, cursive;

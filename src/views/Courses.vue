@@ -1,12 +1,28 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
+
+import Ticket from '../components/ui/Ticket.vue';
 </script>
 
 <template>
   <section id="courses">
     <p class="handwritten-title">Cursos</p>
-    <p class="handwritten-text text-sm mt-1">Ingressos dos cursos que participei.</p>
+    <p class="handwritten-text text-sm my-1">Ingressos dos cursos que participei.</p>
+
+    <Ticket
+      codigo="EVT123"
+      nomeEvento="Vue.js Conference"
+      mesAno="Abril - 2024"
+      descricao="Um evento incrível sobre Vue.js e seu ecossistema."
+      producao="Tech Eventos"
+      imagem="/img/stacks/react.svg"
+      corFundoCode="bg-turquoise"
+      corFundo="bg-turquoise"
+      corTexto="text-cream"
+      corBorda="border-darkText"
+     />
+
     <swiper
       slides-per-view="1.2"
       space-between="20"

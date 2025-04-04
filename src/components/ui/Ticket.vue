@@ -64,9 +64,9 @@ defineProps({
     rgba(0, 0, 0, 0.8) 2px,
     transparent 4px
   );
-  opacity: 0.8;
+  opacity: 0.6;
   left: 5px;
-  top: 8px;
+  top: 9px;
   z-index: 1;
 }
 </style>

@@ -117,6 +117,13 @@ section{
     }
 }
 
+@media (min-width: 1280px) {
+    .text-body{
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
 
 /* Animação */
 

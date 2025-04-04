@@ -4,25 +4,25 @@ const works = [
     firm: 'BRD Soluções em Tecnologia',
     position: 'Desenvolvedor Fullstack Pleno',
     period: 'fev 2024 - até o momento',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...'
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
   },
   {
     firm: 'INBRAEP',
     position: 'Desenvolvedor Fullstack',
     period: 'mar 2023 - fev 2023',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...'
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
   },
   {
     firm: 'Foco Solution Provider',
     position: 'Analista de TI',
     period: 'jul 2021 - nov 2022',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...'
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
   },
   {
     firm: 'Senac Amapá',
     position: 'Técnico Especializado em Ciências da Computação',
     period: 'jan 2014 - fev 2020',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. ...'
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
   }
 ];
 </script>
@@ -31,15 +31,16 @@ const works = [
   <section id="works" class="py-6 px-4">
     <!-- Título utilizando a classe global 'title' -->
     <h1 class="title mb-6 handwritten-title">Experiência Profissional</h1>
-    <div class="space-y-4">
+    <div class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-2">
       <div
         v-for="(work, index) in works"
         :key="index"
         class="work-card bg-lightCream p-4 border-2 border-lightText rounded-md shadow-sm"
       >
         <h2 class="text-lg font-semibold mb-1">{{ work.firm }}</h2>
-        <p class="text-sm text-gray-600 mb-1">{{ work.position }}</p>
+        <p class="text-sm text-darkCream mb-1 sm:text-lg">{{ work.position }}</p>
         <p class="text-sm">{{ work.period }}</p>
+        <p class="text-md mt-2 text-darkText hidden sm:block">{{ work.description }}</p>
       </div>
     </div>
   </section>

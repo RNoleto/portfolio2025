@@ -24,7 +24,7 @@ import Contact from './views/Contact.vue';
     <Courses />
     <Contact />
   </main>
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <style scoped></style>

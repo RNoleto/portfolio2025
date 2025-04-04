@@ -45,34 +45,44 @@ onBeforeUnmount(() => {
 
 <template>
   <!-- Botão de menu: só aparece em mobile -->
-  <button 
-    ref="buttonRef"
-    @click="toggleMenu"
-    :class="{ active: isActive }"
-    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer shadow-md text-lightText md:hidden"
-  >
+  <button ref="buttonRef" @click="toggleMenu" :class="{ active: isActive }"
+    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer shadow-md text-lightText md:hidden">
     <span :class="{ active: isActive }"></span>
   </button>
 
   <!-- Menu de navegação: exibido sempre em desktop e, em mobile, só quando ativo -->
   <Transition name="fade-slide">
-    <nav 
-      ref="menuRef"
-      v-show="!isMobile || isActive" 
-      class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md md:static md:flex md:gap-4 md:rounded-none md:border-0 md:shadow-none"
-    >
+    <nav ref="menuRef" v-show="!isMobile || isActive"
+      class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md md:static md:flex md:gap-4 md:rounded-none md:border-0 md:shadow-none">
       <ul class="flex flex-col gap-2 min-w-[120px] md:flex-row md:gap-1 md:text-sm md:min-w-0">
-        <a href="#home"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Home</li></a>
-        <a href="#about"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Sobre mim</li></a>
-        <a href="#education"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Educação</li></a>
-        <a href="#works"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Experiência</li></a>
-        <a href="#projects"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Projetos</li></a>
-        <a href="#skills"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Habilidades</li></a>
-        <a href="#courses"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Cursos</li></a>
-        <a href="#contact"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Contatos</li></a>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#home" class="block w-full h-full hover:text-cream">Home</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#about" class="block w-full h-full hover:text-cream">Sobre mim</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#education" class="block w-full h-full hover:text-cream">Educação</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#works" class="block w-full h-full hover:text-cream">Experiência</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#projects" class="block w-full h-full hover:text-cream">Projetos</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#skills" class="block w-full h-full hover:text-cream">Habilidades</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#courses" class="block w-full h-full hover:text-cream">Cursos</a>
+        </li>
+        <li class="px-1 py-2 sm:px-2 sm:py-1">
+          <a @click="closeMenu" href="#contact" class="block w-full h-full hover:text-cream">Contatos</a>
+        </li>
       </ul>
     </nav>
   </Transition>
+
 </template>
 
 <style scoped>

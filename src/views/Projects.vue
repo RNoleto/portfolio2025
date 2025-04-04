@@ -6,6 +6,12 @@ const letters = title.split("");
 
 const projects = [
     {
+        image: '../img/projects/Estuday.png',
+        title: 'Estuday',
+        description: 'Estuday é uma plataforma de aprendizado rápido e eficiente para concurseiros, que permite gerenciar seu tempo de estudo, acompanhar métricas das questões resolvidas e acessar insights personalizados gerados por inteligência artificial.',
+        technologies: ['../img/stacks/vue.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
+    },
+    {
         image: '../img/projects/Dogs.png',
         title: 'Dogs',
         description: 'O Dogs foi criado para conectar apaixonados por cães e seus melhores amigos de quatro patas! Inspirado no conceito das redes sociais tradicionais, este projeto oferece um espaço interativo onde tutores podem compartilhar momentos especiais, interagir com outros donos e até mesmo encontrar novas amizades para seus pets.',
@@ -22,12 +28,6 @@ const projects = [
         title: 'FlexBlog',
         description: 'O FlexBlog é um projeto de página única e responsiva desenvolvido com foco total em Flexbox. A proposta é explorar ao máximo essa poderosa técnica de CSS, criando um layout fluido, dinâmico e adaptável a diferentes dispositivos.',
         technologies: ['../img/stacks/html5.svg', '../img/stacks/css3.svg']
-    },
-    {
-        image: '../img/projects/FinanceAI.png',
-        title: 'Finance.ai',
-        description: 'A Finance AI é uma plataforma de gestão financeira que utiliza IA para monitorar suas movimentações, e oferecer insights personalizados, facilitando o controle do seu orçamento.',
-        technologies: ['../img/stacks/typescript.svg', '../img/stacks/nodejs.svg']
     },
     {
         image: '../img/projects/FinanceAI.png',

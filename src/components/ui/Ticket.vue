@@ -8,7 +8,8 @@ defineProps({
   imagem: { type: String, required: true },
   corFundo: { type: String, default: 'bg-turquoise' },
   corFundoCode: { type: String, default: 'bg-turquoise' },
-  corTexto: { type: String, default: 'text-lightCream' },
+  corTexto: { type: String, default: 'text-darkCream' },
+  corCodigo: { type: String, default: 'text-lightCream' },
   corBorda: { type: String, default: 'border-lightText' }
 });
 </script>
@@ -17,10 +18,10 @@ defineProps({
   <div class="flex font-codePro">
     <!-- Código do Evento -->
     <div 
-      class="shadow-sm border-dashed border-1 rounded-md overflow-hidden px-4 py-2 text-center flex"
+      class="shadow-sm border-dashed border-1 rounded-md overflow-hidden px-4 py-2 text-center flex relative barcode-container"
       :class="[corFundoCode, corBorda]"
     >
-      <p class="[writing-mode:vertical-rl] text-sm font-bold" :class="corTexto">
+      <p class="[writing-mode:vertical-rl] text-sm font-bold z-10" :class="corCodigo">
         {{ codigo }}
       </p>
     </div>
@@ -30,7 +31,7 @@ defineProps({
       class="shadow-sm rounded-md border-dashed border-1 p-2 w-full relative overflow-hidden"
       :class="[corFundo, corBorda]"
     >
-      <div class="text-sm flex flex-col justify-center">
+      <div class="text-sm flex flex-col justify-center" :class="corTexto">
         <p class="font-bold">{{ nomeEvento }}</p>
         <p class="text-[10px]">{{ mesAno }}</p>
         <p class="text-[10px]">{{ descricao }}</p>
@@ -50,5 +51,22 @@ defineProps({
 <style scoped>
 .description{
   font-size: 10px;
+}
+
+.barcode-container::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0px,
+    rgba(0, 0, 0, 0.8) 2px,
+    transparent 4px
+  );
+  opacity: 0.8;
+  left: 5px;
+  top: 8px;
+  z-index: 1;
 }
 </style>

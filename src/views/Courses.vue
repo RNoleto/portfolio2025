@@ -131,7 +131,7 @@ const courses = [
     imagem:"/img/stacks/css3.svg",
     corFundoCode:"bg-[#ACD5E3]",
     corFundo:"bg-[#DEE9ED]",
-    corCodigo:"text-darkCream",
+    corCodigo:"text-cream",
     corTexto:"text-darkCream",
     corBorda:"border-darkText",
   },

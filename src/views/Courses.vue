@@ -189,8 +189,8 @@ const groupedCourses = computed(() => groupArrayBy(courses, 5));
 
 <template>
   <section id="courses">
-    <p class="handwritten-title">Cursos</p>
-    <p class="handwritten-text text-sm my-1">Ingressos dos cursos que participei.</p>
+    <p class="handwritten-title lg:mt-10">Cursos</p>
+    <p class="handwritten-text text-sm my-1 text-body">Ingressos dos cursos que participei.</p>
 
     <swiper
       :slides-per-view="1.2"

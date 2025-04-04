@@ -21,7 +21,7 @@ const educations = [
 <template>
   <section id="education" class="education-section py-6 px-4">
     <h1 class="text-2xl font-heading mb-4 handwritten-title">Educação</h1>
-    <p class="mb-6 handwritten-text">
+    <p class="mb-6 text-body">
       Aqui estão minhas formações acadêmicas, registradas com a mesma paixão de quem escreve em um caderno Moleskine.
     </p>
     <div class="space-y-4">

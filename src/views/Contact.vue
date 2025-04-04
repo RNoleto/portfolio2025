@@ -28,26 +28,29 @@ const contacts = [
 </script>
 
 <template>
-  <section id="contact" class="py-6 px-4 bg-cream min-h-[calc(100vh-64px)]">
-    <h1 class="title mb-6">Contato</h1>
-    <div class="flex flex-col items-center gap-4">
-      <div 
-        v-for="(contact, index) in contacts" 
-        :key="index"
-        class="flex items-center gap-3 bg-lightCream p-3 rounded-md shadow-sm w-full max-w-md border border-lightText"
-      >
-        <img 
-          :src="contact.icon" 
-          :alt="contact.type" 
-          class="w-8 h-8 object-contain"
-        />
-        <a 
-          :href="contact.link" 
-          class="text-body text-darkCream hover:text-cobaltBlue"
-          target="_blank" rel="noopener noreferrer"
+  <section id="contact" class="py-6 px-4 bg-cream min-h-screen flex justify-center items-center">
+    <div class="bg-turquoise flex flex-col justify-center items-center p-6 rounded-md shadow-md">
+      <h1 class="title mb-6 text-lightCream">Contato</h1>
+      
+      <div class="flex flex-col items-center gap-4">
+        <div 
+          v-for="(contact, index) in contacts" 
+          :key="index"
+          class="flex items-center gap-3 bg-lightCream p-3 rounded-md shadow-sm w-full max-w-md border border-lightText"
         >
-          {{ contact.value }}
-        </a>
+          <img 
+            :src="contact.icon" 
+            :alt="contact.type" 
+            class="w-8 h-8 object-contain"
+          />
+          <a 
+            :href="contact.link" 
+            class="text-body text-darkText hover:text-cobaltBlue"
+            target="_blank" rel="noopener noreferrer"
+          >
+            {{ contact.value }}
+          </a>
+        </div>
       </div>
     </div>
   </section>

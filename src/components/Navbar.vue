@@ -2,7 +2,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const isActive = ref(false);
-const isMobile = ref(window.innerWidth < 640);
+const isMobile = ref(window.innerWidth < 768);
 const menuRef = ref(null);
 const buttonRef = ref(null);
 
@@ -15,7 +15,7 @@ function closeMenu() {
 }
 
 function updateIsMobile() {
-  isMobile.value = window.innerWidth < 640;
+  isMobile.value = window.innerWidth < 768;
 }
 
 function handleClickOutside(event) {
@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
     ref="buttonRef"
     @click="toggleMenu"
     :class="{ active: isActive }"
-    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer shadow-md sm:hidden text-lightText"
+    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer shadow-md text-lightText md:hidden"
   >
     <span :class="{ active: isActive }"></span>
   </button>
@@ -59,17 +59,17 @@ onBeforeUnmount(() => {
     <nav 
       ref="menuRef"
       v-show="!isMobile || isActive" 
-      class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md sm:static sm:flex sm:gap-4 sm:rounded-none sm:border-0 sm:shadow-none"
+      class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md md:static md:flex md:gap-4 md:rounded-none md:border-0 md:shadow-none"
     >
-      <ul class="flex flex-col gap-2 min-w-[120px] sm:flex-row sm:gap-1 sm:text-sm sm:min-w-0">
-        <a href="#home"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Home</li></a>
-        <a href="#about"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Sobre mim</li></a>
-        <a href="#education"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Educação</li></a>
-        <a href="#works"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Experiência de Trabalho</li></a>
-        <a href="#projects"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Projetos</li></a>
-        <a href="#skills"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Habilidades</li></a>
-        <a href="#courses"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Cursos</li></a>
-        <a href="#contact"><li @click="closeMenu" class="px-1 py-2 sm:px-4 sm:py-2">Contatos</li></a>
+      <ul class="flex flex-col gap-2 min-w-[120px] md:flex-row md:gap-1 md:text-sm md:min-w-0">
+        <a href="#home"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Home</li></a>
+        <a href="#about"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Sobre mim</li></a>
+        <a href="#education"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Educação</li></a>
+        <a href="#works"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Experiência</li></a>
+        <a href="#projects"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Projetos</li></a>
+        <a href="#skills"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Habilidades</li></a>
+        <a href="#courses"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Cursos</li></a>
+        <a href="#contact"><li @click="closeMenu" class="px-1 py-2 sm:px-2 sm:py-1">Contatos</li></a>
       </ul>
     </nav>
   </Transition>

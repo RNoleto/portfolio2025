@@ -4,7 +4,7 @@
 
 <template>
     <section id="skills">
-        <p>As principais tecnologias e ferramentas que utilizo diariamente para desenvolver soluções digitais eficientes, acessíveis e de alta performance.</p>
+        <p class="text-body lg:mt-10">As principais tecnologias e ferramentas que utilizo diariamente para desenvolver soluções digitais eficientes, acessíveis e de alta performance.</p>
         <!-- Barra de Habilidade -->
         <div class="image-container relative animeLeft mt-2.5 bg-turquoise shadow-sm">
             <img src="/Habilidades.svg" alt="Habilidade" class="m-auto">

@@ -96,6 +96,20 @@ section{
     letter-spacing: 1.4px;
 }
 
+@media(max-width: 768px) {
+    .text-body{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .text-body{
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+
 @media (min-width: 1200px) {
     .text-body{
         font-size: 16px;

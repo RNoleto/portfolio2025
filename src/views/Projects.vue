@@ -28,6 +28,12 @@ const projects = [
         title: 'Finance.ai',
         description: 'A Finance AI é uma plataforma de gestão financeira que utiliza IA para monitorar suas movimentações, e oferecer insights personalizados, facilitando o controle do seu orçamento.',
         technologies: ['../img/stacks/typescript.svg', '../img/stacks/nodejs.svg']
+    },
+    {
+        image: '../img/projects/FinanceAI.png',
+        title: 'Finance.ai',
+        description: 'A Finance AI é uma plataforma de gestão financeira que utiliza IA para monitorar suas movimentações, e oferecer insights personalizados, facilitando o controle do seu orçamento.',
+        technologies: ['../img/stacks/typescript.svg', '../img/stacks/nodejs.svg']
     }
 ]
 </script>

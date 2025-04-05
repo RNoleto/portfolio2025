@@ -4,25 +4,25 @@ const works = [
     firm: 'BRD Soluções em Tecnologia',
     position: 'Desenvolvedor Fullstack Pleno',
     period: 'fev 2024 - até o momento',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
+    description: 'Atuo como desenvolvedor backend dando suporte e desenvolvendo modulos para intranet junto com toda equipe de desenvolvimento da prefeitura de Itajaí - SC e desenvolvendo painéis no Metabase para as secretarias da prefeitura para ajuda-los na tomada de decisão.'
   },
   {
     firm: 'INBRAEP',
     position: 'Desenvolvedor Fullstack',
     period: 'mar 2023 - fev 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
+    description: 'Atuei como desenvolvedor fullstack em um projeto de uma plataforma de ensino a distância utilizando Vue.js, Laravel e MySQL. Fui responsável pela manutenção e desenvolvimento das novas páginas da página institucional da empresa.'
   },
   {
     firm: 'Foco Solution Provider',
     position: 'Analista de TI',
     period: 'jul 2021 - nov 2022',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
+    description: 'Atuei como analista de TI, auxiliando o gestor na gerencia de projetos e auxiliando equipe de desenvolvimento na criação de sistemas, reuniões com clientes para entender as necessidades e desenvolver soluções. Tecnologias utilizadas na empresa eram React.js, Node.js, JavaScript, Bitbucket, Html, CSS e Netsuite.'
   },
   {
     firm: 'Senac Amapá',
     position: 'Técnico Especializado em Ciências da Computação',
     period: 'jan 2014 - fev 2020',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem nobis illum vel veniam repellat, cumque quos nostrum sapiente dolorum expedita dolores eveniet enim labore laudantium tempore praesentium rem? Quas?'
+    description: 'Atuei junto com a equipe de TI do Senac Amapá na manutenção da infraestrutura de TI, manutenção de computadores e servidores, suporte técnico aos alunos e professores, manutenção de sistemas internos e desenvolvimento e manutenção do site institucional do Senac Amapá.'
   }
 ];
 </script>

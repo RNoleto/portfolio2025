@@ -9,7 +9,7 @@ const works = [
   {
     firm: 'INBRAEP',
     position: 'Desenvolvedor Fullstack',
-    period: 'mar 2023 - fev 2023',
+    period: 'mar 2023 - fev 2024',
     description: 'Atuei como desenvolvedor fullstack em um projeto de uma plataforma de ensino a distância utilizando Vue.js, Laravel e MySQL. Fui responsável pela manutenção e desenvolvimento das novas páginas da página institucional da empresa.'
   },
   {

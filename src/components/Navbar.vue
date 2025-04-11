@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
   <!-- Menu de navegação: exibido sempre em desktop e, em mobile, só quando ativo -->
   <Transition name="fade-slide">
     <nav ref="menuRef" v-show="!isMobile || isActive"
-      class="absolute z-100 mt-2 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md md:static md:flex md:gap-4 md:rounded-none md:border-0 md:shadow-none">
+      class="absolute z-100 top-12 right-1 border border-lightText text-darkText rounded-lg p-2 bg-cream shadow-md md:static md:flex md:gap-4 md:rounded-none md:border-0 md:shadow-none">
       <ul class="flex flex-col gap-2 min-w-[120px] md:flex-row md:gap-1 md:text-sm md:min-w-0">
         <li class="px-1 py-2 sm:px-2 sm:py-1">
           <a @click="closeMenu" href="#home" class="block w-full h-full hover:text-cream">Home</a>

@@ -1,11 +1,17 @@
 <script setup>
 const works = [
   {
+    firm: 'RNoleto Freelancer',
+    position: 'Desenvolvedor Fullstack',
+    period: 'jul 2021 - até o momento',
+    description: 'Atuação em projetos como freelancer, oferecendo soluções completas de desenvolvimento web, desde a criação do design no Figma até a implementação do front-end e back-end. Utilizo tecnologias como HTML, CSS/Sass, JavaScript, Vue.js, PHP e Laravel, com integração a bancos de dados MySQL e PostgreSQL. Foco em interfaces responsivas, usabilidade e performance, sempre alinhando as necessidades do cliente à melhor experiência do usuário.'
+  },
+  {
     firm: 'BRD Soluções em Tecnologia',
     position: 'Desenvolvedor Fullstack Pleno',
     period: 'fev 2024 - até o momento',
     description: 'Atuo como desenvolvedor backend dando suporte e desenvolvendo modulos para intranet junto com toda equipe de desenvolvimento da prefeitura de Itajaí - SC e desenvolvendo painéis no Metabase para as secretarias da prefeitura para ajuda-los na tomada de decisão.'
-  },
+  },  
   {
     firm: 'INBRAEP',
     position: 'Desenvolvedor Fullstack',

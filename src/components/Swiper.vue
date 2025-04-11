@@ -20,7 +20,7 @@ const swiperOptions = {
 </script>
 
 <template>
-  <Swiper v-bind="swiperOptions" class="translate-x-[26px] w-[360px] overflow-hidden lg:w-[100%]">
+  <Swiper v-bind="swiperOptions" class="translate-x-[26px] w-[390px] overflow-hidden bg-transparent sm:w-[100%]">
     <SwiperSlide
       v-for="(project, index) in projects"
       :key="index"
@@ -35,7 +35,15 @@ const swiperOptions = {
         <div class="ml-[64px] mt-2 text-darkCream w-[200px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>
           <p class="mb-4">{{ project.description }}</p>
-          <div class="flex justify-end space-x-2">
+          <a 
+            :href="project.link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block mt-auto bg-redCream hover:bg-darkRedCream text-white font-semibold py-2 px-4 rounded transition"
+            >
+            Acessar projeto
+          </a>
+          <div class="flex mt-4 space-x-2">
             <template v-for="(tech, idx) in project.technologies" :key="idx">
               <img :src="tech" :alt="`Ícone da tecnologia ${idx}`" class="w-6 h-6" />
             </template>

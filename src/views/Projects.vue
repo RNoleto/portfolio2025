@@ -8,31 +8,43 @@ const projects = [
     {
         image: '../img/projects/Estuday.png',
         title: 'Estuday',
-        description: 'Estuday é uma plataforma de aprendizado rápido e eficiente para concurseiros, que permite gerenciar seu tempo de estudo, acompanhar métricas das questões resolvidas e acessar insights personalizados gerados por inteligência artificial.',
+        description: 'Estuday é uma plataforma de aprendizado ágil voltada para concurseiros, que permite organizar a rotina de estudos, acompanhar métricas de desempenho e obter insights personalizados com o apoio da inteligência artificial, tornando o estudo mais eficiente.',
+        link: 'https://estuday.com.br',
         technologies: ['../img/stacks/vue.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
+    },
+    {
+        image: '../img/projects/vivoItajai.webp',
+        title: 'Vivo Itajaí',
+        description: 'Página responsiva desenvolvida para a loja Vivo Itajaí, permitindo o envio de links para avaliações no Google e lojas de apps, além de divulgar os contatos dos consultores, mantendo o design fiel à identidade da Vivo.',
+        link: 'https://loja-vivo.vercel.app/',
+        technologies: ['../img/stacks/vue.svg', '../img/stacks/tailwind.svg']
     },
     {
         image: '../img/projects/Dogs.png',
         title: 'Dogs',
-        description: 'O Dogs foi criado para conectar apaixonados por cães e seus melhores amigos de quatro patas! Inspirado no conceito das redes sociais tradicionais, este projeto oferece um espaço interativo onde tutores podem compartilhar momentos especiais, interagir com outros donos e até mesmo encontrar novas amizades para seus pets.',
+        description: 'O Dogs foi criado para conectar amantes de cães aos seus fiéis companheiros. Inspirado em redes sociais, o projeto oferece um ambiente interativo onde tutores compartilham momentos especiais, trocam experiências e encontram novas amizades para eles e seus pets.',
+        link: 'https://dogs-lime-two.vercel.app/',
         technologies: ['../img/stacks/react.svg']
     },
     {
         image: '../img/projects/AnimaisFantasticos.png',
         title: 'Animais Fantásticos',
-        description: 'O projeto Animais Fantásticos é uma página interativa que celebra a diversidade da fauna ao nosso redor. A ideia é proporcionar uma experiência visual e informativa, destacando diferentes espécies de animais encontrados na natureza.',
+        description: 'Animais Fantásticos é uma página interativa que celebra a diversidade da fauna, oferecendo uma experiência visual e educativa. O projeto destaca diferentes espécies e curiosidades do reino animal, despertando o interesse pela natureza de forma leve e envolvente.',
+        link: 'https://rnoleto.github.io/Animais-Fantasticos/',
         technologies: ['../img/stacks/html5.svg', '../img/stacks/css3.svg', '../img/stacks/js.svg']
     },
     {
         image: '../img/projects/FlexBlog.png',
         title: 'FlexBlog',
-        description: 'O FlexBlog é um projeto de página única e responsiva desenvolvido com foco total em Flexbox. A proposta é explorar ao máximo essa poderosa técnica de CSS, criando um layout fluido, dinâmico e adaptável a diferentes dispositivos.',
+        description: 'FlexBlog é uma página única e responsiva criada com foco total em Flexbox. O projeto explora ao máximo essa poderosa técnica de CSS, resultando em um layout moderno, fluido e adaptável, ideal para destacar conteúdos em diferentes dispositivos.',
+        link: 'https://rnoleto.github.io/FlexBlog/',
         technologies: ['../img/stacks/html5.svg', '../img/stacks/css3.svg']
     },
     {
         image: '../img/projects/FinanceAI.png',
         title: 'Finance.ai',
-        description: 'A Finance AI é uma plataforma de gestão financeira que utiliza IA para monitorar suas movimentações, e oferecer insights personalizados, facilitando o controle do seu orçamento.',
+        description: 'Finance AI é uma plataforma inteligente de gestão financeira que usa inteligência artificial para acompanhar suas movimentações e gerar insights personalizados, tornando mais fácil controlar seu orçamento e tomar decisões mais assertivas.',
+        link: 'https://finance-ai-cyan-five.vercel.app/login',
         technologies: ['../img/stacks/typescript.svg', '../img/stacks/nodejs.svg']
     }
 ]

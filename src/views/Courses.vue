@@ -8,6 +8,19 @@ const isMobile = ref(false);
 
 const courses = [
   {
+    codigo: "83156db0",
+    nomeEvento: "Front End & UX/UI Design",
+    mesAno: "Março - 2025",
+    descricao: "Tipografia, contraste e UX aplicados em interfaces funcionais.",
+    producao: "Origamid",
+    imagem: "/img/stacks/figma.svg",
+    corFundoCode: "bg-[#AD76EF]",
+    corFundo: "bg-[#C0AAD4]",
+    corCodigo: "text-cream",
+    corTexto: "text-darkCream",
+    corBorda: "border-darkText",
+  },
+  {
     codigo: "MOK65QH5",
     nomeEvento: "Introdução ao React Native",
     mesAno: "Março - 2025",

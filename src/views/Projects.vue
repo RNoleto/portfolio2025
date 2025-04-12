@@ -13,6 +13,13 @@ const projects = [
         technologies: ['../img/stacks/vue.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
     },
     {
+        image: '../img/projects/webscraper.webp',
+        title: 'Webscraper Concursos',
+        description: '​O Webscraper-Concursos é um scraper em PHP que coleta e estrutura diariamente dados de concursos públicos do site PCI Concursos. Ele extrai cargos, vagas e salários dos editais em PDF, gerando um arquivo JSON pronto para integração com outras plataformas.',
+        link: 'https://rnoleto.github.io/webscraper-concursos/',
+        technologies: ['../img/stacks/php.svg', '../github.svg']
+    },
+    {
         image: '../img/projects/vivoItajai.webp',
         title: 'Vivo Itajaí',
         description: 'Página responsiva desenvolvida para a loja Vivo Itajaí, permitindo o envio de links para avaliações no Google e lojas de apps, além de divulgar os contatos dos consultores, mantendo o design fiel à identidade da Vivo.',

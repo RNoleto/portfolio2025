@@ -39,7 +39,7 @@ const swiperOptions = {
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block mt-auto bg-redCream hover:bg-darkRedCream text-white font-semibold py-2 px-4 rounded transition"
+            class="btn inline-block mt-auto text-white font-semibold py-2 px-4 rounded transition shadow-sm"
             >
             Acessar projeto
           </a>
@@ -53,3 +53,13 @@ const swiperOptions = {
     </SwiperSlide>
   </Swiper>
 </template>
+
+<style scoped>
+  .btn{
+    background: var(--color-redCream);  
+  }
+
+  .btn:hover{
+    background: var(--color-darkRedCream);  
+  }
+</style>

@@ -10,7 +10,7 @@ const projects = [
         title: 'Estuday',
         description: 'Estuday é uma plataforma de aprendizado ágil voltada para concurseiros, que permite organizar a rotina de estudos, acompanhar métricas de desempenho e obter insights personalizados com o apoio da inteligência artificial, tornando o estudo mais eficiente.',
         link: 'https://estuday.com.br',
-        technologies: ['../img/stacks/vue.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
+        technologies: ['../img/stacks/vue.svg', '../img/stacks/pinia.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
     },
     {
         image: '../img/projects/webscraper.webp',

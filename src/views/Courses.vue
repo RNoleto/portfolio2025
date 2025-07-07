@@ -8,6 +8,32 @@ const isMobile = ref(false);
 
 const courses = [
   {
+    codigo: "MOK65QH5",
+    nomeEvento: "Introdução ao React Native",
+    mesAno: "Junho - 2025",
+    descricao: "Fundamentos do React Native e desenvolvimento de aplicativos mobile aplicando os conceitos aprendidos.",
+    producao: "Dio.me",
+    imagem: "/img/stacks/react.svg",
+    corFundoCode: "bg-[#2087C5]",
+    corFundo: "bg-[#E0E0E9]",
+    corCodigo: "text-cream",
+    corTexto: "text-darckCream",
+    corBorda: "border-darkText",
+  },
+  {
+    codigo: "54FN1WP9",
+    nomeEvento: "Formação Docker Fundamentals",
+    mesAno: "Junho - 2025",
+    descricao: "Fundamentos do Docker e desenvolvimento de containers para aplicações.",
+    producao: "Dio.me",
+    imagem: "/img/tickets/docker.svg",
+    corFundoCode: "bg-[#2087C5]",
+    corFundo: "bg-[#E0E0E9]",
+    corCodigo: "text-cream",
+    corTexto: "text-darckCream",
+    corBorda: "border-darkText",
+  },
+  {
     codigo: "83156db0",
     nomeEvento: "Front End & UX/UI Design",
     mesAno: "Março - 2025",

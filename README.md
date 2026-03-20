@@ -18,14 +18,23 @@ O projeto utiliza as mais modernas tecnologias de desenvolvimento Frontend:
 
 ---
 
-## ⚡ Otimizações de Performance (Lighthouse 100/100)
+## ⚡ Otimizações de Performance e SEO
 
-Este portfólio contém micro-otimizações agressivas para maximizar a experiência do usuário e as métricas do Core Web Vitals analisadas pelo Lighthouse:
+Este portfólio atingiu a nota máxima em todas as métricas do **Google Lighthouse** (Mobile e Desktop), atestando a qualidade técnica e eficiência no desenvolvimento:
 
-* **Imagens Next-Gen:** Todas as fotografias pesadas e logos em `.png` transicionadas de forma nativa para o formato leve `.webp` usando tamanho estritamente dimensionado para a tela exibida (`width` e `height` explícitos para mitigação total de _Cumulative Layout Shift_).
-* **Render-Blocking Zero:** Bloqueador nativo de renderização de CSS neutralizado através do uso do plugin `vite-plugin-css-injected-by-js`, empacotando os estilos no bundle minimalista assíncrono.
-* **Acessibilidade Universal (a11y):** Taxas de limite de contraste de cores testadas e elevadas de acordo com as normas WCAG (WCAG AA). Tags interativas enriquecidas utilizando `aria-label` invisíveis.
-* **SEO Validado:** Inclusão de atributos de rastreamento completos (`description` refinado) e `robots.txt` estrutural na pasta pública.
+| Métrica Lighthouse | Desktop | Mobile |
+| :--- | :---: | :---: |
+| 🚀 **Desempenho** | **100** | **100** |
+| ♿ **Acessibilidade** | **100** | **100** |
+| 💡 **Práticas Recomendadas**| **100** | **100** |
+| 🔍 **SEO** | **100** | **100** |
+
+Para atingir esses resultados absolutos nos testes nativos (Sem extensões de terceiros e navegando em aba Anônima), o projeto conta com práticas agressivas para Web Vitals:
+
+* **Imagens Next-Gen:** Todas as fotografias pesadas e logos em `.png` foram redimensionados pixel a pixel (`crop`/`resize`) e minificados para `.webp`. Foram inseridas tags HTML rigorosas para mitigação de _Cumulative Layout Shift (CLS)_.
+* **Render-Blocking Zero:** O bloqueador de renderização causado pelo arquivo central `.css` foi neutralizado; todos estilos inlines migrados diretamente para o payload final em `.js` via Vite.
+* **Acessibilidade Universal:** Taxas de contraste cromático revisadas e elevadas de acordo com as normas globais (WCAG AA). Tags interativas e logomarcas ganharam atributos `aria-label` invisíveis para leitores de tela.
+* **Crawlability:** Arquitetado para indexação do motor de busca em todas as escalas (via arquivos `robots.txt` criados com precisão no servidor público).
 
 ---
 

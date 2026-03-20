@@ -57,11 +57,14 @@ const getContactLink = (contact) => {
             :src="contact.icon" 
             :alt="contact.type" 
             class="w-8 h-8 object-contain"
+            width="32"
+            height="32"
           />
           <a 
             :href="getContactLink(contact)" 
             class="text-body text-darkText hover:text-cobaltBlue"
             target="_blank" rel="noopener noreferrer"
+            :aria-label="'Contato por ' + contact.type"
           >
             {{ contact.value }}
           </a>

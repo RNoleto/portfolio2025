@@ -6,53 +6,53 @@ const letters = title.split("");
 
 const projects = [
     {
-        image: '../img/projects/Estuday.png',
+        image: '/img/projects/Estuday.webp',
         title: 'Estuday',
         description: 'Estuday é uma plataforma de aprendizado ágil voltada para concurseiros, que permite organizar a rotina de estudos, acompanhar métricas de desempenho e obter insights personalizados com o apoio da inteligência artificial, tornando o estudo mais eficiente.',
         link: 'https://estuday.com.br',
-        technologies: ['../img/stacks/vue.svg', '../img/stacks/pinia.svg', '../img/stacks/laravel.svg', '../img/stacks/tailwind.svg', '../img/stacks/pgsql.svg', '../img/stacks/stripe.svg']
+        technologies: ['/img/stacks/vue.svg', '/img/stacks/pinia.svg', '/img/stacks/laravel.svg', '/img/stacks/tailwind.svg', '/img/stacks/pgsql.svg', '/img/stacks/abkt.svg']
     },
     {
-        image: '../img/projects/webscraper.webp',
+        image: '/img/projects/webscraper.webp',
         title: 'Webscraper Concursos',
         description: '​O Webscraper-Concursos é um scraper em PHP que coleta e estrutura diariamente dados de concursos públicos do site PCI Concursos. Ele extrai cargos, vagas e salários dos editais em PDF, gerando um arquivo JSON pronto para integração com outras plataformas.',
         link: 'https://rnoleto.github.io/webscraper-concursos/',
-        technologies: ['../img/stacks/php.svg', '../github.svg']
+        technologies: ['/img/stacks/php.svg', '/github.svg']
     },
     {
-        image: '../img/projects/vivoItajai.webp',
+        image: '/img/projects/vivoItajai.webp',
         title: 'Vivo Itajaí',
         description: 'Página responsiva desenvolvida para a loja Vivo Itajaí, permitindo o envio de links para avaliações no Google e lojas de apps, além de divulgar os contatos dos consultores, mantendo o design fiel à identidade da Vivo.',
         link: 'https://loja-vivo.vercel.app/',
-        technologies: ['../img/stacks/vue.svg', '../img/stacks/tailwind.svg']
+        technologies: ['/img/stacks/vue.svg', '/img/stacks/tailwind.svg']
     },
     {
-        image: '../img/projects/Dogs.png',
+        image: '/img/projects/Dogs.webp',
         title: 'Dogs',
         description: 'O Dogs foi criado para conectar amantes de cães aos seus fiéis companheiros. Inspirado em redes sociais, o projeto oferece um ambiente interativo onde tutores compartilham momentos especiais, trocam experiências e encontram novas amizades para eles e seus pets.',
         link: 'https://dogs-lime-two.vercel.app/',
-        technologies: ['../img/stacks/react.svg']
+        technologies: ['/img/stacks/react.svg']
     },
     {
-        image: '../img/projects/AnimaisFantasticos.png',
+        image: '/img/projects/AnimaisFantasticos.webp',
         title: 'Animais Fantásticos',
         description: 'Animais Fantásticos é uma página interativa que celebra a diversidade da fauna, oferecendo uma experiência visual e educativa. O projeto destaca diferentes espécies e curiosidades do reino animal, despertando o interesse pela natureza de forma leve e envolvente.',
         link: 'https://rnoleto.github.io/Animais-Fantasticos/',
-        technologies: ['../img/stacks/html5.svg', '../img/stacks/css3.svg', '../img/stacks/js.svg']
+        technologies: ['/img/stacks/html5.svg', '/img/stacks/css3.svg', '/img/stacks/js.svg']
     },
     {
-        image: '../img/projects/FlexBlog.png',
+        image: '/img/projects/FlexBlog.webp',
         title: 'FlexBlog',
         description: 'FlexBlog é uma página única e responsiva criada com foco total em Flexbox. O projeto explora ao máximo essa poderosa técnica de CSS, resultando em um layout moderno, fluido e adaptável, ideal para destacar conteúdos em diferentes dispositivos.',
         link: 'https://rnoleto.github.io/FlexBlog/',
-        technologies: ['../img/stacks/html5.svg', '../img/stacks/css3.svg']
+        technologies: ['/img/stacks/html5.svg', '/img/stacks/css3.svg']
     },
     {
-        image: '../img/projects/FinanceAI.png',
+        image: '/img/projects/FinanceAI.webp',
         title: 'Finance.ai',
-        description: 'Finance AI é uma plataforma inteligente de gestão financeira que usa inteligência artificial para acompanhar suas movimentações e gerar insights personalizados, tornando mais fácil controlar seu orçamento e tomar decisões mais assertivas.',
+        description: 'Finance AI é uma plataforma inteligente de gestão financeira que usa inteligência artificial para acompanhar suas movimentações e gerar insights personalizados, tornando mais fácil controlar seu orçamento e tomari decisões mais assertivas.',
         link: 'https://finance-ai-cyan-five.vercel.app/login',
-        technologies: ['../img/stacks/typescript.svg', '../img/stacks/nodejs.svg']
+        technologies: ['/img/stacks/typescript.svg', '/img/stacks/nodejs.svg']
     }
 ]
 </script>
@@ -60,7 +60,7 @@ const projects = [
 <template>
     <section class="relative" id="projects">
         <div class="absolute z-3 left-0 top-0  w-[100px] flex flex-col items-center animeLeft">
-            <img src="/ProjetosLetras.svg" alt="projetos">
+            <img src="/ProjetosLetras.svg" alt="projetos" class="w-[100px] h-[780px]">
         </div>
         <span class="barra absolute z-1 left-0 top-0 bg-redCream w-[100px] h-full flex flex-col items-center animeLeft">
         </span>

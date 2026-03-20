@@ -45,8 +45,8 @@ onBeforeUnmount(() => {
 
 <template>
   <!-- Botão de menu: só aparece em mobile -->
-  <button ref="buttonRef" @click="toggleMenu" :class="{ active: isActive }"
-    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-lightText border-1 items-center justify-center cursor-pointer shadow-md text-lightText md:hidden">
+  <button ref="buttonRef" @click="toggleMenu" :class="{ active: isActive }" aria-label="Menu"
+    class="relative bg-cream rounded-sm w-[40px] h-[40px] flex flex-col gap-1 border-turquoise border-1 items-center justify-center cursor-pointer shadow-md text-turquoise md:hidden">
     <span :class="{ active: isActive }"></span>
   </button>
 

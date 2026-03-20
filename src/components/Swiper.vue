@@ -31,6 +31,8 @@ const swiperOptions = {
           :src="project.image"
           :alt="project.title"
           class="w-[360px] h-[215px] object-cover"
+          width="360"
+          height="215"
         />
         <div class="ml-[64px] mt-2 text-darkCream w-[200px]">
           <h3 class="text-xl font-bold mb-1">{{ project.title }}</h3>
@@ -40,12 +42,13 @@ const swiperOptions = {
             target="_blank"
             rel="noopener noreferrer"
             class="btn inline-block mt-auto text-white font-semibold py-2 px-4 rounded transition shadow-sm"
+            :aria-label="`Acessar projeto ${project.title}`"
             >
             Acessar projeto
           </a>
           <div class="flex mt-4 space-x-2">
             <template v-for="(tech, idx) in project.technologies" :key="idx">
-              <img :src="tech" :alt="`Ícone da tecnologia ${idx}`" class="w-6 h-6" />
+              <img :src="tech" :alt="`Ícone da tecnologia ${idx}`" class="w-6 h-6" width="24" height="24" />
             </template>
           </div>
         </div>

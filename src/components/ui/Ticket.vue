@@ -7,7 +7,7 @@ defineProps({
   producao: { type: String, required: true },
   imagem: { type: String, required: true },
   corFundo: { type: String, default: 'bg-turquoise' },
-  corFundoCode: { type: String, default: 'bg-turquoise' },
+  corFundoCode: { type: String, default: 'bg-darkBlue' },
   corTexto: { type: String, default: 'text-darkCream' },
   corCodigo: { type: String, default: 'text-lightCream' },
   corBorda: { type: String, default: 'border-lightText' }
@@ -43,6 +43,8 @@ defineProps({
         :src="imagem" 
         :alt="`Ícone de ${nomeEvento}`" 
         class="absolute w-[90px] right-[-5px] top-[10px] rotate-[-20deg] opacity-30"
+        width="90"
+        height="90"
       />
     </div>
   </div>

@@ -5,9 +5,9 @@ import Polaroid from '../components/ui/Polaroid.vue'
 <template>
     <section class="aboutMe" id="about">
         <div class="image-container relative animeLeft">
-            <img src="/AboutMe.svg" alt="">
+            <img src="/AboutMe.svg" alt="Sobre mim" width="800" height="400">
         </div>
-        <Polaroid imageSrc="../img/RamonNoleto.jpg" caption="Ramon Noleto" class="absolute top-2 left-[205px] rotate-20 animeRight z-1 sm:left-[450px] sm:w-[250px] lg:left-[700px] xl:left-[870px]"/>
+        <Polaroid imageSrc="/img/RamonNoleto.webp" caption="Ramon Noleto" class="absolute top-2 left-[205px] rotate-20 animeRight z-1 sm:left-[450px] sm:w-[250px] lg:left-[700px] xl:left-[870px]"/>
         <div class="flex flex-col gap-2.5 text-body animeLeft mt-[-160px] sm:mt-[-140px] lg:mt-[-60px] xl:mt-[-20px]">
             <p>Sou um desenvolvedor <br class="hidden"> web <br class="sm:hidden"> especializado em <br class="hidden">criar <br class="lg:hidden"> experiências <br class="hidden lg:block xl:hidden"> digitais <br class="sm:hidden"> focadas em <br class="hidden lg:hidden"> performance <br class="sm:block lg:hidden"> e <br class="hidden xl:block"> acessibilidade.</p>
 
@@ -18,8 +18,8 @@ import Polaroid from '../components/ui/Polaroid.vue'
             <p>Estou sempre em busca de oportunidades para colaborar em projetos que valorizem a eficiência e a inclusão digital. Se você procura um profissional dedicado a entregar soluções web de alto desempenho e acessíveis a todos, vamos conversar!​</p>
 
             <div class="flex items-center gap-2 mt-2">
-              <img src="/github.svg" alt="logo Github">
-              <a href="https://github.com/RNoleto" target="_blank">Meu github</a>
+              <img src="/github.svg" alt="logo Github" width="24" height="24">
+              <a href="https://github.com/RNoleto" target="_blank" aria-label="Acessar meu Github">Meu github</a>
             </div>
         </div>
     </section>

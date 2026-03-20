@@ -8,7 +8,7 @@ const works = [
   },
   {
     firm: 'BRD Soluções em Tecnologia',
-    position: 'Desenvolvedor Fullstack Pleno',
+    position: 'Desenvolvedor Fullstack Senior',
     period: 'fev 2024 - até o momento',
     description: 'Atuo como desenvolvedor backend dando suporte e desenvolvendo modulos para intranet junto com toda equipe de desenvolvimento da prefeitura de Itajaí - SC e desenvolvendo painéis no Metabase para as secretarias da prefeitura para ajuda-los na tomada de decisão.'
   },  
